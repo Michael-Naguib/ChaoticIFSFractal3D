@@ -29,6 +29,20 @@ fractal equations for IFS are designed consider looking at the Serinpenski Trian
 fractal nature. I decided to adjust a scaling factor I thought would result in a more condensed fractal: to my delight it did with spectacular results...
 I have coded a separate constant which allows you to modify the original: in the **Define a LOT of constants for various fractals** section look for the
 variable called ```hyper_constant``` ... setting it to a value of 1 means identity/ that the calculation is as I derived it. I found values on the range [1,2] to be very interesting ... 1.8 in particular is a great number. (which was found by trial and repptition)
+## Screenshots
+- Here are screenshots of several of the fractals although to really see the patter it is much more interesting to actually view it in 3d rotating it to see
+hidden detail that is not easily captured by one 2D image ... 
+[triangle]:
+[dragon]:
+[hedgehog]:
+
+- Here is a screenshot of the Dragon Fractal: (hyper_constant = 1.8) 
+![Dragon Fractal][dragon]
+- Here is a screenshot of the [Paul Bourke's](http://paulbourke.net/fractals/ifs/) Hedgehog Fractal: 
+![Hedgehog Fractal][hedgehog]
+- Here is a screenshot of the Serinpenski (tetrahedron) Fractal: (note the perspective is actually inside the fractal)
+![Triangle Fractal][triangle]
+
 ## Usage
 - in the **Run a Calculation** section the point quantity, starting point, as well as the desired fractal system can be specified using the dictionary of Predefined Fractal Functions... mearly change the string value 
 ## Devlopment
