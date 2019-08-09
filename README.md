@@ -1,4 +1,5 @@
 # ChaoticIFSFractal3D
+Code By Michael Sherif Nagib 8/9/19
 ## What Are Chaotic IFS Fractals
 - Chaotic IFS Fractals are fractals generated using an iterated function system. It is akin to calling a mathematical function on
  itself over and over again ```f(f(f(f(x))))```. The nth value is the function called on itself n times
