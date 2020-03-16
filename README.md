@@ -31,7 +31,7 @@ fractal nature. I decided to adjust a scaling factor I thought would result in a
 I have coded a separate constant which allows you to modify the original: in the **Define a LOT of constants for various fractals** section look for the
 variable called ```hyper_constant``` ... setting it to a value of 1 means identity/ that the calculation is as I derived it. I found values on the range [1,2] to be very interesting ... 1.8 in particular is a great number. (which was found by trial and repptition)
 ## Screenshots
-- Here are screenshots of several of the fractals although to really see the patter it is much more interesting to actually view it in 3d rotating it to see
+- Here are screenshots of several of the fractals although to really see the pattern it is much more interesting to actually view it in 3d rotating it to see
 hidden detail that is not easily captured by one 2D image ... 
 - Here is a screenshot of the Dragon Fractal: (hyper_constant = 1.8) 
 ![Dragon Fractal](https://raw.githubusercontent.com/Michael-Naguib/ChaoticIFSFractal3D/master/dragon_hc1.8_.PNG "Dragon")
@@ -49,7 +49,7 @@ hidden detail that is not easily captured by one 2D image ...
 - tqdm, pptk, numpy, random, math
 ## Features
 - 3D display of points using an efficient GPU implementation
-- (Planned) Coloring of points based on transfomration function used ( ... technically i had coded this but removed it as I wanted to make it an easily configurable option rather than a hardcoded generative system that colors the points ...)
+- (Planned) Coloring of points based on transfomration function used ( ... technically I had coded this but removed it as I wanted to make it an easily configurable option rather than a hardcoded generative system that colors the points ...)
 - (Planned) Save the data and load the data between runs ... (fractals with many transformations take longer to compute to a convergence of point density ... i.e the fractal pattern needs more points to be recognizable as a fractal to humans ... most pc's are fast enough tho to compute these anyway in a matter of a minute)
 
 
